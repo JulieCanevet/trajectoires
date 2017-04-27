@@ -95,7 +95,12 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
+svg
+{
+  margin-top: 25%;
+  margin-left: 40%;
+  transform: rotate(45deg);
+}
 
 
 
