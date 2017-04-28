@@ -200,6 +200,8 @@ font-size: 4em;
   text-decoration: underline;
 }
 
+
+
 }
 
 <<<<<<< HEAD
@@ -230,27 +232,9 @@ font-size: 4em;
 <<<<<<< HEAD
 
 =======
-/*
+
 >>>>>>> master
-   .menu {
-      background-color: #B6E4DA;
-      display: flex;
-      height: 70px;
-      justify-content: center;
-      align-items: center;
-      justify-content: space-around;
-      list-style-type: none;
-      width: 100%;
-      position: fixed;
-      font-size: 25px;
-      color: white;
-<<<<<<< HEAD
-      margin: 0;
-      padding: 0;
-=======
-      margin-top: 0;
->>>>>>> master
-  }
+
 
 
   .menu li a {
@@ -333,18 +317,21 @@ font-size: 4em;
 
   /*FOOTER */
 
-  .foot {
-    background-color: #BBC7C7;
-    display: flex;
 
-    font-family: 'Lobster Two', cursive;
+
+
+
+/*.foot {
+  background-color: #BBC7C7;
+  display: flex;
+  font-family: 'Lobster Two', cursive;
 font-size: 1.5em;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    width: 100%;
-    padding-top: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 100%;
+  padding-top: 10px;
 }
 
 .foot2 {
@@ -360,7 +347,7 @@ font-size: 1.5em;
     width: 2%;
     margin-left: 10px;
     color: white
-}
+}*/
 
 /*VERSION MOBILE PAGES EQUIPE*/
 
@@ -377,14 +364,18 @@ figure {
   margin-bottom: 100px;
 }
 
-.presentation1 img {
-<<<<<<< HEAD
+.presentation1 img, .presentation2 img {
+
   border: 7px solid black;
-=======
   border: 5px solid black;
->>>>>>> master
   height: 150px;
   width: 150px;
+}
+
+.presentation1 {
+  border-right: 2px solid black;
+  padding-right: 100px;
+  margin-right: 100px;
 }
 
 .equipep1 {
@@ -402,13 +393,13 @@ figure {
     display: block;
 }
 
-@media (min-width:768px) {
-
-  .yestablette {
->>>>>>> master
-    display: block;
+.menu {
+  display: none;
 }
 
+.presentation1 {
+  text-align: right;
+}
 @media (min-width:768px) {
 
   .equipe {
@@ -431,6 +422,28 @@ figure {
 
   .notablette {
     display: none;
+  }
+
+  .menu {
+     background-color: #B6E4DA;
+     display: flex;
+     height: 70px;
+     justify-content: center;
+     align-items: center;
+     justify-content: space-around;
+     list-style-type: none;
+     width: 100%;
+     position: fixed;
+     font-size: 25px;
+     color: white;
+     margin: 0;
+     padding: 0;
+     margin-top: 0;
+
+  }
+
+  .menu a {
+    text-decoration: none;
   }
 }
 
