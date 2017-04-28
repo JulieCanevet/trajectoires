@@ -175,7 +175,9 @@ figure {
 }
 
 .presentation1 img {
-  border: 15px solid black
+  border: 5px solid black;
+  height: 150px;
+  width: 150px;
 }
 
 .equipep1 {
