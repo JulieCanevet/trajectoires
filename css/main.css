@@ -95,72 +95,137 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-   /* DEBUT GLENN page lieux.html */
+/* ______________________DEBUT GLENN lieux.html______________________ */
 
-   /* articles impaires de la page lieux.html */
-   .lieux_article1 {
-     /* couleur de fond et de police */
-     background-color: #FFFFFF;
-     color: #000000;
-     margin-top: 20px;
-     padding-bottom: 20px;
-   }
+/* ===== DEBUT de la page lieux.html ===== */
 
-   /* Articles paires de la page lieux.html */
-   .lieux_article2 {
-     /* couleur de fond et de police */
-     background-color: #FFFFFF;
-     color: #000000;
-     margin-top: 20px;
-     padding-bottom: 20px;
-   }
+/* articles impaires de la page lieux.html */
+.lieux_article1 {
+/* couleur de fond et de police */
+background-color: #FFFFFF;
+color: #000000;
+margin-top: 20px;
+padding-bottom: 20px;
+}
 
-   /* couleur des titres */
-   .lieux_article1 h2 {
-     color: #0066FF;
-   }
-   .lieux_article2 h2{
-     color: #66FF66;
-   }
+/* Articles paires de la page lieux.html */
+.lieux_article2 {
+/* couleur de fond et de police */
+background-color: #FFFFFF;
+color: #000000;
+margin-top: 20px;
+padding-bottom: 20px;
+}
+
+/* couleur des titres */
+.lieux_article1 h2 {
+  color: #0066FF;
+}
+.lieux_article2 h2{
+  color: #66FF66;
+}
+
+/* bordure des images */
+.lieux_article1 img {
+  border: 5px #0066FF solid;
+}
+.lieux_article2 img {
+  border: 5px #66FF66 solid;
+}
 
 
-   /* bordure des images */
-   .lieux_article1 img {
-     border: 5px #0066FF solid;
-   }
-   .lieux_article2 img {
-     border: 5px #66FF66 solid;
-   }
+/* texte d'article placé */
+.lieux_article_details {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+.lieux_article_details p {
+  margin-left: 3vw;
+  font-size: 1.2em;
+}
+
+/* images de la page lieux.html */
+.lieux img {
+  /* redimension de l'image */
+  width: 38vw;
+  height: 38vh;
+  border-radius: 1em;
+}
+
+/* titre d'article */
+.lieux h2 {
+  margin-left: 6vw;
+}
+/* ===== FIN de la page lieux.html ===== */
+
+/* ===== DEBUT  de la page partenaires.html ===== */
+/* articles impaires de la page partenaires.html */
+.partenaires_article1 {
+  /* couleur de fond et de police */
+  background-color: #FFFFFF;
+  color: #000000;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Articles paires de la page partenaires.html */
+.partenaires_article2 {
+  /* couleur de fond et de police */
+  background-color: #FFFFFF;
+  color: #000000;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* couleur des titres */
+.partenaires_article1 h2 {
+  color: #0066FF;
+}
+.partenaires_article2 h2{
+  color: #66FF66;
+}
+
+/* bordure des images */
+.partenaires_article1 img {
+  border: 5px #0066FF solid;
+}
+.partenaires_article2 img {
+  border: 5px #66FF66 solid;
+}
 
 
-   /* texte d'article placé */
-   .lieux_article_details {
-     display: flex;
-     margin-top: 30px;
-     margin-left: 10vw;
-     margin-right: 10vw;
-   }
+/* texte d'article placé */
+.partenaires_article_details {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
 
-   .lieux_article_details p {
-     margin-left: 3vw;
-     font-size: 1.2em;
-   }
+.partenaires_article_details p {
+  margin-left: 3vw;
+  font-size: 1.2em;
+}
 
-   /* images de la page lieux.html */
-   .lieux img {
-     /* redimension de l'image */
-     width: 38vw;
-     height: 38vh;
-     border-radius: 2em;
-   }
+/* images de la page partenaires.html */
+.partenaires img {
+  /* redimension de l'image */
+  width: 20vw;
+  height: 20vh;
+  border-radius: 1em;
+}
 
-   /* titre d'article */
-   .lieux h2 {
-     margin-left: 6vw;
-   }
+/* titre d'article */
+.partenaires h2 {
+  margin-left: 6vw;
+}
 
-   /* FIN GLENN lieux.html */
+/* ===== FIN de la page partenaires.html ===== */
 
+/* ______________________FIN GLENN lieux.html______________________ */
 
 /* Carre jaune page accueil */
 .accueilmobile
