@@ -155,7 +155,7 @@ font-size: 4em;
   font-family: 'Josefin Sans', sans-serif;
 
 }
-
+/* ************ FIN DE LA HOME PAGE ********** */
 
 @media (min-width: 768px) {
   .home
@@ -164,7 +164,6 @@ font-size: 4em;
     background-size : 120vw;
     background-image: url(../img/ford.jpg);
     background-repeat: no-repeat;
-
   }
 
   .accueilmobile
@@ -204,8 +203,6 @@ font-size: 4em;
 
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 
   /*MATHIEU*/
     /*COMMON RULES */
@@ -214,33 +211,15 @@ font-size: 4em;
         padding: 0;
     }
 
-
-
-=======
-   /*COMMON RULES */
-
-   * {
-       margin: 0;
-       padding: 0;
-   }
->>>>>>> master
-
    /*HEADER TABLETTE/DESKTOP*/
    /*HEADER MOBILE*/
 
-
-<<<<<<< HEAD
-
-=======
-
->>>>>>> master
 
 
 
   .menu li a {
     color: white;
     text-decoration: none;
-<<<<<<< HEAD
   }
   /*HEADER MOBILE*/
 
@@ -321,7 +300,7 @@ font-size: 4em;
 
 
 
-/*.foot {
+.foot {
   background-color: #BBC7C7;
   display: flex;
   font-family: 'Lobster Two', cursive;
@@ -347,7 +326,7 @@ font-size: 1.5em;
     width: 2%;
     margin-left: 10px;
     color: white
-}*/
+}
 
 /*VERSION MOBILE PAGES EQUIPE*/
 
@@ -383,23 +362,42 @@ figure {
   margin-bottom: 50px;
 }
 
+.menu2 {
+  padding-bottom: 100Px;
+}
+
+
+.presentation1 {
+  text-align: right;
+}
+
 .nomobile {
     display: none;
 }
 
 .yesmobile {
-<<<<<<< HEAD
-=======
+
     display: block;
 }
 
 .menu {
-  display: none;
+   background-color: #B6E4DA;
+   display: flex;
+   height: 70px;
+   justify-content: center;
+   align-items: center;
+   justify-content: space-around;
+   list-style-type: none;
+   width: 100%;
+   position: fixed;
+   font-size: 25px;
+   color: white;
+   margin: 0;
+   padding: 0;
+   margin-top: 0;
+
 }
 
-.presentation1 {
-  text-align: right;
-}
 @media (min-width:768px) {
 
   .equipe {
@@ -415,35 +413,18 @@ figure {
     padding-top: 100px;
   }
 
-<<<<<<< HEAD
+
+
+  .menu a {
+    text-decoration: none;
+  }
+
   .yestablette {
     display: block;
   }
 
   .notablette {
     display: none;
-  }
-
-  .menu {
-     background-color: #B6E4DA;
-     display: flex;
-     height: 70px;
-     justify-content: center;
-     align-items: center;
-     justify-content: space-around;
-     list-style-type: none;
-     width: 100%;
-     position: fixed;
-     font-size: 25px;
-     color: white;
-     margin: 0;
-     padding: 0;
-     margin-top: 0;
-
-  }
-
-  .menu a {
-    text-decoration: none;
   }
 }
 
@@ -466,6 +447,10 @@ figure {
 
     font-family: 'Lobster Two', cursive;
 
+}
+
+.style {
+  padding-top: 100Px;
 }
 .tete
 {
@@ -505,6 +490,8 @@ figure {
 {
   list-style-type: none;
 }
+
+
 @media (min-width: 768px) {
 
 /* Mise en place des article */
@@ -581,6 +568,138 @@ figure {
   text-align: justify;
 }
 }
+
+/* ______________________DEBUT GLENN______________________ */
+
+/* ===== DEBUT de la page lieux.html ===== */
+
+/* articles impaires de la page lieux.html */
+.lieux_article1 {
+/* couleur de fond et de police */
+background-color: #FFFFFF;
+color: #000000;
+margin-top: 20px;
+padding-bottom: 20px;
+}
+
+/* Articles paires de la page lieux.html */
+.lieux_article2 {
+/* couleur de fond et de police */
+background-color: #FFFFFF;
+color: #000000;
+margin-top: 20px;
+padding-bottom: 20px;
+}
+
+/* couleur des titres */
+.lieux_article1 h2 {
+  color: #0066FF;
+}
+.lieux_article2 h2{
+  color: #66FF66;
+}
+
+/* bordure des images */
+.lieux_article1 img {
+  border: 5px #0066FF solid;
+}
+.lieux_article2 img {
+  border: 5px #66FF66 solid;
+}
+
+
+/* texte d'article placÈ */
+.lieux_article_details {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+.lieux_article_details p {
+  margin-left: 3vw;
+  font-size: 1.2em;
+}
+
+/* images de la page lieux.html */
+.lieux img {
+  /* redimension de l'image */
+  width: 38vw;
+  height: 38vh;
+  border-radius: 1em;
+}
+
+/* titre d'article */
+.lieux h2 {
+  margin-left: 6vw;
+}
+/* ===== FIN de la page lieux.html ===== */
+
+/* ===== DEBUT  de la page partenaires.html ===== */
+/* articles impaires de la page partenaires.html */
+.partenaires_article1 {
+  /* couleur de fond et de police */
+  background-color: #FFFFFF;
+  color: #000000;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Articles paires de la page partenaires.html */
+.partenaires_article2 {
+  /* couleur de fond et de police */
+  background-color: #FFFFFF;
+  color: #000000;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* couleur des titres */
+.partenaires_article1 h2 {
+  color: #0066FF;
+}
+.partenaires_article2 h2{
+  color: #66FF66;
+}
+
+/* bordure des images */
+.partenaires_article1 img {
+  border: 5px #0066FF solid;
+}
+.partenaires_article2 img {
+  border: 5px #66FF66 solid;
+}
+
+
+/* texte d'article placÈ */
+.partenaires_article_details {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+.partenaires_article_details p {
+  margin-left: 3vw;
+  font-size: 1.2em;
+}
+
+/* images de la page partenaires.html */
+.partenaires img {
+  /* redimension de l'image */
+  width: 20vw;
+  height: 20vh;
+  border-radius: 1em;
+}
+
+/* titre d'article */
+.partenaires h2 {
+  margin-left: 6vw;
+}
+
+/* ===== FIN de la page partenaires.html ===== */
+
+/* ______________________FIN GLENN______________________ */
 
 
 /* ==========================================================================
