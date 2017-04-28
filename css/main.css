@@ -94,16 +94,80 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
-svg
+/* Carre jaune page accueil */
+.accueil
 {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
   margin-top: 25%;
-  margin-left: 40%;
-  transform: rotate(45deg);
+}
+
+.accueil h1{
+position: absolute;
+margin-top: 2.5em;
+text-align: center;
+}
+.accueil span
+{
+  font-weight: normal;
+  font-size: .5em;
+}
+.accueil img
+{
+  width: 90%;
+  height: 90%;
+  margin: auto;
+}
+
+.accueil a
+{
+  color: black;
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 10%;
+  text-align: center;
+  margin: auto;
+  width: 40%;
+  padding: 15px;
+  margin-top: 2em;
 }
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.atablette
+{
+  display: none;
+}
+@media (min-widht: 768px) {
+
+
+.accueil
+{
+  background-size : 100% auto;
+  background-image: url(../img/ford.jpg);
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
+
+}
 
 
 
