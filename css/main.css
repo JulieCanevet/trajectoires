@@ -151,7 +151,7 @@ text-align: center;
 
 
 @media (min-width: 768px) {
-  html
+  .home
   {
     margin-left: -20%;
     background-size : 120vw;
@@ -180,12 +180,28 @@ text-align: center;
 }
 
 }
+/* -------------- PAGE ASSOCIATION ------------- */
+.association
+{
+  width: 90%;
+  margin: auto;
+}
 
+.association hr
+{
+  width: 50%;
+  margin: auto;
+}
 
+.association p
+{
+  text-align: center;
+}
 
-
-
-
+.association span
+{
+  display: none;
+}
 
 
 
