@@ -107,8 +107,10 @@ textarea {
 /* Titre TRAJECTOIRE de la page d'accueil */
 .accueilmobile h1
 {
-margin-top: 2.5em;
+margin-top: 1em;
 text-align: center;
+font-family: 'Lobster Two', cursive;
+font-size: 4em;
 }
 
 .titre
@@ -124,7 +126,10 @@ text-align: center;
 .accueilmobile span
 {
   font-weight: normal;
-  font-size: .5em;
+  color: black;
+  font-size: .4em;
+  font-family: 'Josefin Sans', sans-serif;
+
 }
 
 /* Gestion du losange */
@@ -147,6 +152,8 @@ text-align: center;
   width: 40%;
   padding: 15px;
   margin-top: 2em;
+  font-family: 'Josefin Sans', sans-serif;
+
 }
 
 
@@ -163,30 +170,32 @@ text-align: center;
   .accueilmobile
   {
 
-    margin-top: 5%;
+    margin-top: 4%;
     margin-left: 20%;
   }
 
 .titre h1
 {
-  font-size: 3em;
-  margin-top: 1em;
+  font-size: 5em;
+  font-family: 'Lobster Two', cursive;
 }
+
 .titre
 {
   background-size: 37%;
-  padding-top: 7em;
+  padding-top: 2em;
   padding-bottom: 5em;
   opacity: .80;
+  line-height: 4em;
 
 }
 .accueilmobile a
 {
   width: 10%;
-  margin-top: 1.5em;
+  margin-top: 2em;
   color: black;
   background-color: white;
-  opacity: .9;
+  opacity: .7;
   border: 1px solid black;
 }
 
@@ -211,29 +220,37 @@ text-align: center;
    /*HEADER TABLETTE/DESKTOP*/
 
    .menu {
-      background-color: black;
+      background-color: #B6E4DA;
       display: flex;
-      height: 75px;
+      height: 70px;
       justify-content: center;
       align-items: center;
       justify-content: space-around;
       list-style-type: none;
       width: 100%;
       position: fixed;
-      font-size: 20px;
+      font-size: 25px;
       color: white;
+      margin-top: 0;
+
   }
 
   .menu li a {
     color: white;
     text-decoration: none;
+
+    font-family: 'Josefin Sans', sans-serif;
+
   }
 
   /*FOOTER */
 
   .foot {
-    background-color: black;
+    background-color: #BBC7C7;
     display: flex;
+
+    font-family: 'Lobster Two', cursive;
+font-size: 1.5em;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -245,7 +262,7 @@ text-align: center;
 .foot2 {
     display: flex;
     justify-content: center;
-    background-color: black;
+    background-color: #BBC7C7;
     padding-top: 10px;
     padding-bottom: 10px;
 
@@ -305,17 +322,27 @@ figure {
   .maincontainerequipe {
     padding-top: 100px;
   }
-
-
-
-=======
+}
 /* -------------- PAGE ASSOCIATION ------------- */
+/* Mise en page de l'entete titre + texte  de presentation*/
 .association, .tete
 {
   width: 90%;
   margin: auto;
 }
+.tete h1
+{
+  margin-top: 0;
 
+    font-family: 'Lobster Two', cursive;
+
+}
+.tete
+{
+  padding-top: 5em;
+}
+
+/* Traits pour la page association version mobile */
 .association hr
 {
   width: 50%;
@@ -327,17 +354,21 @@ figure {
 
 .association h3, .association h1
 {
-  color: yellow;
+  color: #FBF520;
+  font-family: 'Lobster Two', cursive;
+
 }
-.association p, .association ul
+.association h3
+{
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+.association p, .association ul, .tete
 {
   color: black;
->>>>>>> d2b19c4997c6669fced04af041732a5453cd0e2a
-}
 
-.tete span
-{
-  display: none;
+    font-family: 'Josefin Sans', sans-serif;
+
 }
 
 .association ul
@@ -346,7 +377,7 @@ figure {
 }
 @media (min-width: 768px) {
 
-
+/* Mise en place des article */
   hr
   {
     display: none;
@@ -368,6 +399,7 @@ figure {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  margin-top: 3em;
 }
 
 /* Prmiere ligne des etapes */
@@ -408,6 +440,7 @@ figure {
   justify-content: center;
 }
 
+/* Dernier article */
 .self
 {
   border-left: 2px solid black;
@@ -418,13 +451,6 @@ figure {
   text-align: justify;
 }
 }
-
-
-
-
-
-
-
 
 
 /* ==========================================================================
