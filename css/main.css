@@ -178,8 +178,8 @@ text-align: center;
 {
   opacity: .85;
 }
-
 }
+
 /* -------------- PAGE ASSOCIATION ------------- */
 .association
 {
@@ -193,9 +193,13 @@ text-align: center;
   margin: auto;
 }
 
-.association p
+.association h3, .association h1
 {
-  text-align: center;
+  color: yellow;
+}
+.association p, .association ul
+{
+  color: black;
 }
 
 .association span
@@ -203,7 +207,82 @@ text-align: center;
   display: none;
 }
 
+@media (min-width: 768px) {
 
+
+  hr
+  {
+    display: none;
+  }
+.tete
+{
+  width: 90%;
+  margin: auto;
+}
+
+.asso1, .asso2
+{
+  display: flex;
+  margin-top: 10%;
+}
+
+.asso
+{
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* Prmiere ligne des etapes */
+.asso article
+{
+  margin-right: 20%;
+}
+.vente
+{
+  text-align: center;
+  width: 50%;
+}
+.beneficiaires
+{
+  border-right: 2px solid black;
+  padding-right: 10%;
+  text-align: right;
+  margin-left: 5%;
+}
+.beneficiaires ul
+{
+  list-style-type: dashed;
+}
+
+/* Deuxieme ligne des etapes */
+.asso1
+{
+  justify-content: space-around;
+  align-items: center;
+}
+.entretien, .location
+{
+  border-right: 2px solid black;
+  padding-right: 2%;
+  margin-right: 10%;
+  width: 30%;
+  text-align: right;
+}
+
+.asso2
+{
+  justify-content: center;
+}
+
+.self
+{
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  padding: 3%;
+  margin-bottom: 4em;
+  width: 35%;
+}
+}
 
 
 
