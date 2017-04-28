@@ -94,6 +94,74 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+   /* DEBUT GLENN page lieux.html */
+
+   /* articles impaires de la page lieux.html */
+   .lieux_article1 {
+     /* couleur de fond et de police */
+     background-color: #FFFFFF;
+     color: #000000;
+     margin-top: 20px;
+     padding-bottom: 20px;
+   }
+
+   /* Articles paires de la page lieux.html */
+   .lieux_article2 {
+     /* couleur de fond et de police */
+     background-color: #FFFFFF;
+     color: #000000;
+     margin-top: 20px;
+     padding-bottom: 20px;
+   }
+
+   /* couleur des titres */
+   .lieux_article1 h2 {
+     color: #0066FF;
+   }
+   .lieux_article2 h2{
+     color: #66FF66;
+   }
+
+
+   /* bordure des images */
+   .lieux_article1 img {
+     border: 5px #0066FF solid;
+   }
+   .lieux_article2 img {
+     border: 5px #66FF66 solid;
+   }
+
+
+   /* texte d'article placé */
+   .lieux_article_details {
+     display: flex;
+     margin-top: 30px;
+     margin-left: 10vw;
+     margin-right: 10vw;
+   }
+
+   .lieux_article_details p {
+     margin-left: 3vw;
+     font-size: 1.2em;
+   }
+
+   /* images de la page lieux.html */
+   .lieux img {
+     /* redimension de l'image */
+     width: 38vw;
+     height: 38vh;
+     border-radius: 2em;
+   }
+
+   /* titre d'article */
+   .lieux h2 {
+     margin-left: 6vw;
+   }
+
+   /* FIN GLENN lieux.html */
+
+
 /* Carre jaune page accueil */
 .accueilmobile
 {
